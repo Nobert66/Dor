@@ -1,0 +1,37 @@
+{
+  "siteTitle": "Nobert Wafula Portfolio",
+  "owner": "Nobert Wafula",
+  "sections": [
+    {
+      "id": "hero",
+      "title": "Welcome",
+      "subtitle": "Biostatistician | Web Developer"
+    },
+    {
+      "id": "skills",
+      "title": "Skills",
+      "skillsList": [
+        { "name": "JavaScript", "level": 90 },
+        { "name": "HTML", "level": 95 },
+        { "name": "CSS", "level": 85 }
+      ]
+    },
+    {
+      "id": "contact",
+      "title": "Contact",
+      "fields": [
+        { "type": "email", "label": "Your Email", "required": true }
+      ]
+    }
+  ],
+  "navigation": [
+    { "label": "Home", "href": "#hero" },
+    { "label": "Skills", "href": "#skills" },
+    { "label": "Contact", "href": "#contact" }
+  ],
+  "social": [
+    { "platform": "GitHub", "url": "https://github.com/yourusername" },
+    { "platform": "LinkedIn", "url": "https://linkedin.com/in/yourusername" }
+  ]
+}
+

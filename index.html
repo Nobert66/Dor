@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nobert Wafula - Biostatistician & Web Developer</title>
+    <link rel="stylesheet" href="lov.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                Nobert <span class="text-blue">Wafula</span>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#education" class="nav-link">Education</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="bg-circle bg-circle-1"></div>
+            <div class="bg-circle bg-circle-2"></div>
+        </div>
+        <div class="hero-content">
+            <div class="profile-image">
+                <img src="./profile.png" alt="Nobert Wafula" class="profile-img">
+            </div>
+            <h1 class="hero-title">
+                Nobert <span class="text-gradient">Wafula</span>
+            </h1>
+            <p class="hero-subtitle">
+                <span class="text-blue">Biostatistician</span> | <span class="text-teal">Web Developer</span>
+            </p>
+            <p class="hero-description">
+                Passionate about transforming complex data into actionable insights and creating innovative web solutions that make a difference in healthcare and beyond.
+            </p>
+            <div class="hero-buttons">
+                <button class="btn btn-primary" onclick="scrollToSection('projects')">View Projects</button>
+                <button class="btn btn-outline" onclick="downloadResume()">Download Resume</button>
+            </div>
+            <div class="social-links">
+                <a href="https://github.com/Nobert66" target="_blank" class="social-link">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/nobert-wafula-b7b1782a2" target="_blank" class="social-link">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://youtube.com/@nobertwakasala?si=QbODQMpPkRoRvHnC" target="_blank" class="social-link">
+                    <i class="fab fa-youtube"></i>
+                </a>
+                <a href="https://www.tiktok.com/@nobert.wafula4?_t=ZM-8wXj8zEUX70&_r=1" target="_blank" class="social-link">
+                    <i class="fab fa-tiktok"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">
+                    About <span class="text-gradient">Me</span>
+                </h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I'm a dedicated Biostatistician and Web Developer with a passion for leveraging data science 
+                        to solve real-world health challenges. Currently pursuing my Bachelor's degree in Biostatistics 
+                        and Epidemiology at Masinde Muliro University of Science and Technology.
+                    </p>
+                    <p>
+                        My expertise spans statistical analysis, epidemiological research, and modern web development. 
+                        I specialize in transforming complex datasets into meaningful insights that drive informed 
+                        decision-making in healthcare and public health sectors.
+                    </p>
+                    <p>
+                        When I'm not analyzing data or coding, you'll find me exploring the latest trends in data 
+                        visualization, contributing to open-source projects, and sharing knowledge through social media platforms.
+                    </p>
+                </div>
+                <div class="about-card">
+                    <h3>Quick Facts</h3>
+                    <div class="fact-item">
+                        <span class="fact-label">Email:</span>
+                        <span class="fact-value">wakasalanobert5746@gmail.com</span>
+                    </div>
+                    <div class="fact-item">
+                        <span class="fact-label">Phone:</span>
+                        <span class="fact-value">+254 793 798 993</span>
+                    </div>
+                    <div class="fact-item">
+                        <span class="fact-label">Location:</span>
+                        <span class="fact-value">Lurambi, Kakamega</span>
+                    </div>
+                    <div class="fact-item">
+                        <span class="fact-label">GitHub:</span>
+                        <a href="https://github.com/Nobert66" class="fact-link">github.com/Nobert66</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">
+                    Skills & <span class="text-gradient">Expertise</span>
+                </h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Programming Languages</h3>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span>R</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 90%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span>Python</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span>JavaScript</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 80%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span>HTML/CSS</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 90%"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3>Statistical Tools</h3>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span>SPSS</span>
+                            <span>95%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 95%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span>Stata</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 90%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span>SAS</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 80%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span>Excel</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 90%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">
+                    Educational <span class="text-gradient">Journey</span>
+                </h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="timeline">
+                <div class="timeline-line"></div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <span class="timeline-period">2023 - 2027</span>
+                            <span class="timeline-status current">Currently Pursuing</span>
+                        </div>
+                        <h3>Bachelor of Science in Biostatistics and Epidemiology</h3>
+                        <h4>Masinde Muliro University of Science and Technology</h4>
+                        <p class="timeline-location">Kenya</p>
+                        <p>Specialized in statistical methods for health research, epidemiological study design, and public health data analysis.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <span class="timeline-period">2019 - 2022</span>
+                            <span class="timeline-status completed">Completed</span>
+                        </div>
+                        <h3>Kenya Certificate of Secondary Education</h3>
+                        <h4>Bishop Atundo Boys - Kimaeti</h4>
+                        <p class="timeline-location">Kenya</p>
+                        <p>Focused on Mathematics, Biology, Chemistry, and Physics with excellent performance.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <span class="timeline-period">2009 - 2018</span>
+                            <span class="timeline-status completed">Completed</span>
+                        </div>
+                        <h3>Kenya Certificate of Primary Education</h3>
+                        <h4>Kimaeti RC Primary School</h4>
+                        <p class="timeline-location">Kenya</p>
+                        <p>Strong foundation in mathematics and sciences, graduating with distinction.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">
+                    Featured <span class="text-gradient">Projects</span>
+                </h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1559757148-5c350d0d3c56" alt="Stroke Analysis">
+                    </div>
+                    <div class="project-content">
+                        <h3>Risk Factor Analysis of Stroke</h3>
+                        <p>Comprehensive statistical analysis identifying key risk factors contributing to stroke incidents using epidemiological data and advanced statistical models.</p>
+                        <div class="project-tags">
+                            <span class="tag">R</span>
+                            <span class="tag">SPSS</span>
+                            <span class="tag">Statistical Modeling</span>
+                        </div>
+                        <div class="project-buttons">
+                            <a href="https://github.com/Nobert66" class="btn btn-outline btn-small" target="_blank">
+                                <i class="fab fa-github"></i> Code
+                            </a>
+                            <a href="#" class="btn btn-primary btn-small">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef" alt="Diabetes Analysis">
+                    </div>
+                    <div class="project-content">
+                        <h3>Risk Factor Analysis of Diabetes</h3>
+                        <p>In-depth analysis of diabetes risk factors using machine learning algorithms and statistical methods to predict disease onset and progression.</p>
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">R</span>
+                            <span class="tag">Machine Learning</span>
+                        </div>
+                        <div class="project-buttons">
+                            <a href="https://github.com/Nobert66" class="btn btn-outline btn-small" target="_blank">
+                                <i class="fab fa-github"></i> Code
+                            </a>
+                            <a href="#" class="btn btn-primary btn-small">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1551601651-2a8555f1a136" alt="TB Forecasting">
+                    </div>
+                    <div class="project-content">
+                        <h3>TB Incidence Forecasting in Guanxi, China</h3>
+                        <p>Developed predictive models for tuberculosis incidence forecasting using time series analysis and epidemiological surveillance data.</p>
+                        <div class="project-tags">
+                            <span class="tag">R</span>
+                            <span class="tag">Time Series</span>
+                            <span class="tag">Forecasting</span>
+                        </div>
+                        <div class="project-buttons">
+                            <a href="https://github.com/Nobert66" class="btn btn-outline btn-small" target="_blank">
+                                <i class="fab fa-github"></i> Code
+                            </a>
+                            <a href="#" class="btn btn-primary btn-small">View Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">
+                    Get In <span class="text-gradient">Touch</span>
+                </h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's Connect</h3>
+                    <p>I'm always interested in new opportunities, collaborations, and interesting projects. Whether you have a question about my work or just want to say hello, feel free to reach out!</p>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div>
+                            <h4>Email</h4>
+                            <p>wakasalanobert5746@gmail.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+254 793 798 993</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div>
+                            <h4>Location</h4>
+                            <p>Lurambi, Kakamega</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <h3>Send a Message</h3>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Nobert <span class="text-blue">Wafula</span></h3>
+                    <p>Biostatistician and Web Developer passionate about transforming data into insights and creating innovative digital solutions.</p>
+                    <div class="social-links">
+                        <a href="https://github.com/Nobert66" target="_blank" class="social-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/nobert-wafula-b7b1782a2" target="_blank" class="social-link">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://youtube.com/@nobertwakasala?si=QbODQMpPkRoRvHnC" target="_blank" class="social-link">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#education">Education</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <p>📧 wakasalanobert5746@gmail.com</p>
+                    <p>📱 +254 793 798 993</p>
+                    <p>📍 Lurambi, Kakamega</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Nobert Wafula. All rights reserved. Built with modern web technologies.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- WhatsApp Float Button -->
+    <a href="https://wa.me/254793798993?text=Hello%20Nobert!%20I'm%20interested%20in%20discussing%20a%20project%20with%20you." 
+       target="_blank" class="whatsapp-float">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <script src="lov.js"></script>
+</body>
+</html>
+
+
+
