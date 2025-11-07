@@ -289,4 +289,20 @@ function typeWriter() {
 
 // Initialize typing effect when page loads
 window.addEventListener('load', typeWriter);
+
+
+// Loader
+window.addEventListener("load", function() {
+    // Delay hiding loader by 2 seconds after page load
+    setTimeout(() => {
+      const loader = document.getElementById("loader");
+      loader.classList.add("fade-out");
+      setTimeout(() => {
+        loader.style.display = "none";
+        document.getElementById("content").style.display = "block";
+      }, 800); // matches CSS fade duration
+    }, 2000); // delay = 2 seconds
+  });
+
       
+
