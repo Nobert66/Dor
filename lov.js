@@ -298,9 +298,10 @@ window.addEventListener("load", () => {
     document.getElementById("loader-wrapper").classList.add
 ("hidden");
     document.getElementById("content").classList.add("show");
-  }, 30000); // delay in milliseconds (3000 = 3s)
+  }, 5000); // delay in milliseconds (3000 = 3s)
 });
 
       
+
 
 
