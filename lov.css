@@ -1035,19 +1035,4 @@ html {
   75% {transform: translate(0, 60px);}
   100% {transform: translate(0, 0);}
 }
-/* Main Website Content */
-#content {
-  display: none;
-  text-align: center;
-  padding: 80px;
-  font-family: Arial, sans-serif;
-  color: #333;
-}
-#content.show {
-  display: block;
-  animation: fadeIn 1s ease;
-}
-@keyframes fadeIn {
-  from {opacity: 0;}
-  to {opacity: 1;}
-}
+
