@@ -306,13 +306,13 @@ const form = document.getElementById("contactForm");
   form.addEventListener("submit", function (event) {
     // Optional success alert and reset form
     setTimeout(() => {
-      alert("✅ Your message has been sent successfully!");
       form.reset();
     }, 500);
   });
 
 
       
+
 
 
 
