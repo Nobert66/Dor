@@ -292,17 +292,14 @@ window.addEventListener('load', typeWriter);
 
 
 // Loader
-window.addEventListener("load", function() {
-    // Delay hiding loader by 2 seconds after page load
-    setTimeout(() => {
-      const loader = document.getElementById("loader");
-      loader.classList.add("fade-out");
-      setTimeout(() => {
-        loader.style.display = "none";
-        document.getElementById("content").style.display = "block";
-      }, 800); // matches CSS fade duration
-    }, 2000); // delay = 2 seconds
-  });
+// Delay before showing website (e.g. 3 seconds)
+window.addEventListener("load", () => {
+  setTimeout(() => {
+    document.getElementById("loader-wrapper").classList.add
+("hidden");
+    document.getElementById("content").classList.add("show");
+  }, 3000); // delay in milliseconds (3000 = 3s)
+});
 
       
 
