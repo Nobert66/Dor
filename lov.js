@@ -301,7 +301,19 @@ window.addEventListener("load", () => {
   }, 5000); // delay in milliseconds (3000 = 3s)
 });
 
+
+const form = document.getElementById("contactForm");
+  form.addEventListener("submit", function (event) {
+    // Optional success alert and reset form
+    setTimeout(() => {
+      alert("✅ Your message has been sent successfully!");
+      form.reset();
+    }, 500);
+  });
+
+
       
+
 
 
 
